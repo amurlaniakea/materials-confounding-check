@@ -1,0 +1,35 @@
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# Datasets / outputs (no commitear datos de usuario)
+data/
+*.csv
+*.json
+!tests/data/fixture.py
+rep_*.json
+
+# Secrets (CRITICAL: nunca subir credenciales)
+.hermes/
+.gnupg/
+.aws/
+credentials/
+*.key
+.env
+
+# OS
+.DS_Store
