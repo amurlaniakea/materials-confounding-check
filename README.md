@@ -42,9 +42,20 @@ The report JSON contains the four sub-test blocks and the final `risk` verdict.
 
 ## Why this exists
 
-The *Clever Materials* paper (Jablonka et al.) showed leakage/confounding is widespread in
-materials ML. Existing tools (e.g. Giskard) cover generic tabular leakage but do **not** run the
-bibliographic-fingerprint test specific to materials science. This tool fills that gap.
+The *Clever Materials* paper (Jablonka et al., arXiv:2602.17730) showed leakage/confounding is
+widespread in materials ML. Existing tools (e.g. Giskard, ~4.8k★) cover generic tabular leakage
+but do **not** run the bibliographic-fingerprint test specific to materials science. This tool
+fills that gap.
+
+Primary sources and dataset references: see [RESEARCH.md](RESEARCH.md).
+
+## References
+
+- Jablonka, A. M., et al. *Clever Materials* (2026). arXiv:2602.17730
+- Huang & Cole, *Scientific Data* 2020 (battery materials). https://doi.org/10.1038/s41597-020-00602-2
+- Shabih et al. / Jacobsson, *Nature Energy* 2021 (perovskite). https://www.perovskitedatabase.com
+- Nandy et al., *Scientific Data* 2022 (MOFSimplify). https://doi.org/10.1038/s41597-022-01181-0
+- Huang & Cole, *Scientific Data* 2024 (TADF). https://doi.org/10.1038/s41597-023-02897-3
 
 ## License
 
